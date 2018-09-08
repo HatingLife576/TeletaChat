@@ -1,0 +1,33 @@
+{
+  "name": "Teleta",
+  "version": "0.0.3",
+  "description": "A node js chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "babel-plugin-emotion": "^9.2.8",
+    "easyrtc": "^1.1.0",
+    "emoticons": "^0.1.8",
+    "express": "^4.16.3",
+    "git": "^0.1.5",
+    "jquery-emoji-picker": "^0.2.2",
+    "jsfiddle": "^1.1.6",
+    "node-emoji": "^1.8.1",
+    "opus": "^0.0.2",
+    "react-emotion": "^9.2.8",
+    "rm-emoji-picker": "^0.4.0",
+    "socket.io": "^2.1.1",
+    "twilio": "^4.6.0",
+    "user-chat": "^0.0.3"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "chat",
+    "Teleta",
+    "app"
+  ],
+  "license": "?"
+}
