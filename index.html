@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Teleta - Open beta</title>
+  <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/e384ae41-c28f-426c-b961-c3c618624519%2Fthumbnails%2Fteleta.png?1534527148973">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="header">
+   
+          <a href="/" class="logo">Teleta</a>
+              <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+          <a href="tos.html">Terms</a>
+    <a href="signuptest.html">Sign Up</a>
+  </div>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"><li class="log" style="display: list-item;"></li></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type your message here" maxlength="500"/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Type in a name below to begin</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+  <script src="emoji.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
